@@ -269,6 +269,17 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+#navbar {
+    list-style-type: none;
+    text-align: left;
+    color: white;
+    backgroundcolor: #40406E
+}
+
+#navelement {
+    float: left;
+}
+
 #forkme_banner {
   display: block;
   position: absolute;
