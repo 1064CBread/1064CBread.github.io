@@ -269,7 +269,7 @@ Full-Width Styles
   margin: 0 auto;
 }
 
-#navbar {
+.navbar {
     list-style-type: none;
     text-align: left;
     color: #FFFFFF;
@@ -277,7 +277,7 @@ Full-Width Styles
     overflow: hidden;
 }
 
-#navelement {
+.navelement {
     float: left;
 }
 
