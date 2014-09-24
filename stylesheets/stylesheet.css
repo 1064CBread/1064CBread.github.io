@@ -270,16 +270,15 @@ Full-Width Styles
 }
 
 .navbar {
-    text-align: center;
     list-style-type: none;
     text-align: left;
-    color: #FFFFFF;
-    backgroundcolor: #40406E
     overflow: hidden;
 }
 
 .navelement {
-    
+    color: #FFFFFF;
+    backgroundcolor: #40406E
+    text-align: center;
     float: left;
     width: 80px;
     height 40px
