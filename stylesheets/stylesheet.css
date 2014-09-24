@@ -274,6 +274,7 @@ Full-Width Styles
     text-align: left;
     color: white;
     backgroundcolor: #40406E
+    overflow: hidden;
 }
 
 #navelement {
