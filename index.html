@@ -4,32 +4,22 @@
 
 <!DOCTYPE html>
 <html>
-
   {% include headtag.html %}
-
   <body>
-
-    <!-- NAVBAR -->
-    <center><ul class="navbar">
-      <li class="navelement">TEST</li>
-      <li class="navelement">TEST</li>
-      <li class="navelement">TEST</li>
-    </ul></center>
-
-    <!-- HEADER -->
     {% include header.html %}
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>Just a holder.</p>
-      </section>
+    <div id="main_content_wrap" class="container">
+        <section id="main_content" class="jumbotron">
+            <div class="media">
+                <a class="pull-left" href="#">
+                    <img class="media-object" src="http://www.loop.universaleverything.com/animations/1295.gif" alt="filler">
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">Just a filler.</h4>
+                    Seriously though, we're loading things here. They'll be loaded any decade now.
+                </div>
+            </div>
+        </section>
     </div>
-
-    <!-- FOOTER  -->
     {% include footer.html %}
-
-    
-
   </body>
 </html>

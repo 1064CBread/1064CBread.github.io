@@ -1,7 +1,12 @@
-<div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>&copy; 1064CBread 2014</p>
-        <p>TODO: Add contact email here.</p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+<div id="footer_wrap" class="container">
+      <footer>
+        <div class="col-md-3"></div>
+        <div class="col-md-6 well">
+                <p>&copy; 1064CBread 2014</p>
+                {% assign email="1337KToast@example.com" %}
+                <p><a href="mailto:{{ email }}">{{ email }}</a></p>
+                <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+        </div>
+        <div class="col-md-3"></div>
       </footer>
-    </div>
+</div>
